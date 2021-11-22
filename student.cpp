@@ -114,6 +114,7 @@ Student::~Student() {};
 //Print method
 void Student::print() {
     // Make changes here to be able to dynamically retrieve student info.
+    std::cout << studentID << "    First Name: " << firstName << "    Last Name: " << entry->getLastName() << "    Age: " << entry->getAge() << "    Days in Course: " << entry->getCourseDaysStr() << "    Degree Program: " << entry->getDegreeName() << std::endl;
     std::cout << "Student #" << studentID << std::endl;
     std::cout << "First Name: " << firstName << std::endl;
     std::cout << "Last Name: " << lastName << std::endl;
