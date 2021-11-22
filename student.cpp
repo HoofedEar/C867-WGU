@@ -113,6 +113,7 @@ Student::~Student() {};
 
 //Print method
 void Student::print() {
+    // Make changes here to be able to dynamically retrieve student info.
     std::cout << "Student #" << studentID << std::endl;
     std::cout << "First Name: " << firstName << std::endl;
     std::cout << "Last Name: " << lastName << std::endl;
